@@ -1,0 +1,20 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+	int i,j,n;
+	char c;
+	printf("Enter a number\n");
+	scanf("%d",&n);
+	c='A';
+	for(i=1;i<=n;i++)
+	{
+		for(j=1;j<=1;j++)
+		{
+			printf("%c%c\t",c,c+32);
+			c++;
+		}
+		printf("\n");
+	}
+	return 0;
+}
